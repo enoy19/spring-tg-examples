@@ -1,6 +1,7 @@
 package io.enoy.tg.example;
 
 import io.enoy.tg.EnableTgBot;
+import io.enoy.tg.EnableTgBotExampleControllers;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Component;
 
 @SpringBootApplication
 @EnableTgBot
+@EnableTgBotExampleControllers
 @ComponentScan("io.enoy.tg.example.actions")
 public class SpringTelegramExampleApplication {
 
