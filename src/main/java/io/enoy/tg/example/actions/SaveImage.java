@@ -13,7 +13,6 @@ import org.telegram.telegrambots.api.objects.PhotoSize;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 @TgController(name = "Save Image", description = "Saves any image to the disk", commandValidator = SaveImageCommandValidator.class)
 @RequiredArgsConstructor
