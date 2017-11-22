@@ -44,7 +44,6 @@ public class SaveImage {
 			throw new IllegalStateException(e);
 		}
 
-
 	}
 
 }

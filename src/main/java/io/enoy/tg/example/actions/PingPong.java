@@ -4,10 +4,8 @@ import io.enoy.tg.action.TgController;
 import io.enoy.tg.action.request.TgRequest;
 import io.enoy.tg.bot.TgMessageService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.context.annotation.Scope;
 
 @TgController(name = "PingPong", description = "Sends back Pong", regex = "\\/ping")
-@Scope("tg")
 @RequiredArgsConstructor
 public class PingPong {
 
