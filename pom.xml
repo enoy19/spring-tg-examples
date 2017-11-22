@@ -11,7 +11,7 @@
 	</parent>
 
 	<groupId>io.enoy</groupId>
-	<artifactId>spring-telegram-example</artifactId>
+	<artifactId>spring-tg-example</artifactId>
 	<version>1.0.1</version>
 
 	<properties>
